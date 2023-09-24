@@ -1,0 +1,70 @@
+@media(max-width: 3000px) {
+    header {
+        background-color: rgb(29, 29, 29);
+        width: 104.6742134%;
+        margin-left: -8px;
+        margin-top: -20.97px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Logo {
+        width: 50%;
+        transition: transform 1s;
+    }
+    .Logo:hover {
+        transform: translateX(10px) scale(1.2);
+    }
+    body {
+        background-color: rgb(20, 20, 20);
+    }
+    main {
+        display: flex;
+    }
+    .gen1 {
+        width: 96%;
+        border-radius: 10%;
+        transition: transform 1s;
+    }
+    .gen1:hover {
+        transform: translateX(25px) scale(1);
+    }
+    @font-face {
+        font-family: poké;
+        src: url(Pokemon\ Classic.ttf);
+    }
+    .div1 {
+        margin-left: 5%;
+        width: 40%;
+        font: bold 60% poké, sans-serif;
+        color: aliceblue;
+        text-align: left;
+        display: inline block;
+    }
+    .gen2 {
+        width: 96%;
+        border-radius: 10%;
+        transition: transform 1s;
+    }
+    .gen2:hover {
+        transform: translateX(-25px) scale(1);
+    }
+    .div2 {
+        margin-left: 10%;
+        width: 40%;
+        font: bold 60% poké, sans-serif;
+        color: aliceblue;
+        text-align: left;
+        display: inline block;
+    }
+    .foot {
+        color: aliceblue;
+        background-color: black;
+        width: 104.6742134%;
+        margin-left: -6px;
+        height: 230px;
+        margin-top: 5%;
+        text-align: center;
+        padding: 1%;
+        font: bold 100% arial, sans-serif;
+    }
+}
